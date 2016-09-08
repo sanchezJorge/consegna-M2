@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Venditore</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Milestone 2">
+        <meta name="author" content="Jorge Sánchez Gómez">
+        <meta name="keywords" content="HTML, Milestone 2, AMM">
+        <meta http-equiv="refresh" content="60">
+        <link rel="stylesheet"  type="text/css" href="css/mystyle.css"  media="screen" />
+    </head>
+    <body>
+        <div class="web">
+        <header>
+        <h1>Area venditori</h1>
+        </header>
+                    <nav id="navegacion">
+                        <h3> Menu di navigazione</h3>
+            <ul>
+            <li><a href="descrizione.html">Inizio della web</a>
+            <li><a href="login.html">Link alle web login</a></li>
+            </ul>
+            
+        </nav>
+        <div class="contenido">
+        <br><br>
+        <form action="venditore.html" method="post">
+            <label for="nombre">Nome dello Oggeto: </label>
+            <br>
+            <input type="text" name="nombreObjeto" id="nombre">
+            <br><br>
+            <label for="url">URL della foto: </label>
+            <br>
+            <input type="url" name="URLobjeto" id="url">
+            <br><br>
+            <label for="descripcion">Descrizione </label>
+            <br>
+            <textarea rows="5" cols="40" name="descripcionObjeto" id="descripcion" ></textarea>
+            <br><br>
+            <label for="precio">Prezzo </label>
+            <br>
+            <input type="number" name="precioObjeto" id="precio">
+            <br><br>
+            <input type="submit" value="Inviare">
+            <input type="reset" value="Cancellare">
+            <br><br>
+        </form>
+        </div>
+
+        </div>
+    </body>
+</html>
